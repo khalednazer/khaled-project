@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="/bootstrab/bootstrap.min.css">
+    <link rel="stylesheet" href="css-index.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light-my  col-12">
+        <div class="container-fluid mt-2 p-2">
+          <a class="navbar-brand me-5 " href="#">Navbar scroll</a>
+          <button class=" navbar-toggler me-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-5  my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item ms-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+              <li class="nav-item ms-2 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  about us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ms-2">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">help</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-3 text-center bg-light-my" type="search" placeholder="Search" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass me-3 ms-0 d-lg-none d-sm-none"></i>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <div class="topi bg-light-my mt-1 text-center p-5 d-flex justify-content-center align-items-center  align-content-start flex-column ">
+        <h2>Lorem ipsunt n aliquam culpa!</h2>
+        <p class="fs-5 text-black-50">Lorem, ipsum dolor dipisicing elit. tio, voluptates quae.</p>
+        <button class="btn btn-outline-success fw-bold" type="submit">buy now</button>
+    </div>
+    <div class="shows">
+      <div class="hed pt-5 text-center col-lg-12 mb-md-5 mb-sm-5">
+          <i class="fa-brands fa-docker fa-5x text-info"></i>
+          <h2 >we are good at next tacnolgy</h2>
+          <p class="text-black-50 bg-info fa-2x only ">only tell us how we can hellp you</p>
+      </div>
+      <div class="offer d-flex justify-content-center align-items-center m-5 flex-row justify-content-space-betwen flex-wrap">
+          <div class="one  col-lg-4 col-md-6 col-sm-12  text-center  ">
+              <div class="ii">
+                  <i class="fa-solid fa-1 number"></i>
+                  <i class="fa-brands fa-discord fa-4x mb-3 text-success" ></i>
+              </div>
+              <h2>this offer is not advanced</h2>
+              <p >re always give you all what you need here and moonlu tell us how we can </p>
+          </div>
+          <div class="tow col-lg-4 col-md-6 col-sm-12  text-center ">
+              <div class="ii">
+                  <i class="fa-solid fa-2 number "></i>
+                  <i class="fa-solid fa-hippo fa-4x mb-3 text-success"  ></i>
+              </div>
+                  <h2>this second difrent offer</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaqueincidunt hic animi deleniti?</p>
+          </div>
+          <div class="thre col-lg-4 col-md-6 col-sm-12  text-center ">
+              <div class="ii">
+                  <i class="fa-solid fa-3 number"></i>
+                  <i class="fa-solid fa-tree fa-4x mb-3 text-success" ></i>
+              </div>
+              <h2 >this second difrent offer</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eaqueincidunt hic animi deleniti?</p>
+          </div>
+      </div>
+    </div>
+    <div class="workss bg-light d-flex flex-wrap justify-content-center align-items-center p-4 align-content-center ">
+      <div class="hederr text-center col-12">
+        <i class="fa-brands fa-docker fa-5x mb-3 text-success"></i>
+        <h2 class="mb-3 ">this is some of our works </h2>
+        <p class="text-black-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloupore nulla dolorum.</p>
+      </div>
+      <div class="chose-one">
+        <ul class="d-flex justify-content-center  flex-wrap">
+          <li class=" bg-info rounded-pill text-center align-content-center text-primary col-3 mt-2 mb-2 act">java</li>
+          <li class=" bg-info rounded-pill text-center align-content-center text-primary col-3 mt-2 mb-2 ">paython</li>
+          <li class=" bg-info rounded-pill text-center align-content-center text-primary col-3 mt-2 mb-2 ">c++</li>
+          <li class=" bg-info rounded-pill text-center align-content-center text-primary col-3 mt-2 mb-2 ">JS</li>
+        </ul>
+      </div>
+      <div class="photo d-flex flex-wrap justify-content-center align-items-center">
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_11.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_12.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_13.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_14.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_15.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_16.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_17.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+        <div class="boxx position-relative" data-co="welcome">
+          <img src="/imags/Screenshot_18.png" alt="" class="ess col-3 col-md-6 col-sm-12 m-1 rounded img-fluid">
+        </div>
+      </div>
+      <button type="button" class="btn btn-danger mt-5 text-uppercase">i want more</button>
+    </div>
+    <div class="stuf d-flex flex-wrap justify-content-center align-items-center">
+      <div class=" d-flex flex-wrap justify-content-center align-items-center p-4 align-content-start ">
+        <div class="hederr text-center col-12 justify-content-center align-items-center">
+          <i class="fa-brands fa-docker fa-5x mb-3 text-success"></i>
+          <h2 class="mb-3 ">this is some of our works </h2>
+          <p class="text-black-50 mb-3 border-info p-3 khe">we always top10</p>
+          <p class="text-black-50">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Non vero porro blanditiis <br> architecto quod velitvoluptatem.</p>
+        </div>
+          <div class="aboutDsin ps-4 d-flex flex-wrap justify-content-center align-items-center ">
+            <div class="dpp mt-5  col-lg-6 col-sm-12 d-flex  flex-wrap align-items-center  p-5 ">
+              <h2 class="col-12 ">name of designer</h2>
+              <p class="text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque peiam error.</p>
+              <p class="text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque peiam ctetur adipisicing elit. Doloremque peiam error.</p>
+              <button type="button" class="btn btn-danger mt-5 text-uppercase fs-5 fw-bold text-warning">i want more</button>
+            </div>
+            <div class="img col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+              <img src="/imags/New Website Blue Mockup Instagram - Laptop (2).png " alt="" class="imim img-fluid">
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="team d-flex justify-content-center align-items-center  align-content-center flex-wrap bg-light pt-5">
+      <div class="hedmumber d-flex justify-content-center align-items-center  align-content-center flex-wrap col-12">
+        <h2>try to connect with our team</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, eligendi repellendus facere assumenda architectora velit impedit dicta recusandae.</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center  align-content-center flex-wrap col-lg-2 ms-3 me-4 mt-3 col-md-5 col-sm-10 ">
+        <img src="/imags/Screenshot_14.png" class=" col-12 img-fluid" alt="">
+        <span class="bg-info  col-12 text-center text-uppercase text-light pt-2 pb-2 ">khaled nazer</span>
+        <p class="text-center bg-dark text-light p-2">icing elit. Ratione, eligendi repellendus facere assumenda architectora veli</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center  align-content-center flex-wrap col-lg-2 ms-3 me-4 mt-3 col-md-5 col-sm-10 ">
+        <img src="/imags/Screenshot_17.png" class=" col-12 img-fluid" alt="">
+        <span class="bg-info  col-12 text-center text-uppercase text-light pt-2 pb-2 ">keen adel</span>
+        <p class="text-center bg-dark text-light p-2">icing elit. Ratione, eligendi repellendus facere assumenda architectora veli</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center  align-content-center flex-wrap col-lg-2 ms-3 me-4 mt-3 col-md-5 col-sm-10 ">
+        <img src="/imags/Screenshot_15.png" class=" col-12 img-fluid" alt="">
+        <span class="bg-info  col-12 text-center text-uppercase text-light pt-2 pb-2 ">any one</span>
+        <p class="text-center bg-dark text-light p-2">icing elit. Ratione, eligendi repellendus facere assumenda architectora veli</p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center  align-content-center flex-wrap col-lg-2 ms-3 me-4 mt-3 col-md-5 col-sm-10 ">
+        <img src="/imags/Screenshot_13.png" class=" col-12 img-fluid" alt="">
+        <span class="bg-info  col-12 text-center text-uppercase text-light pt-2 pb-2 ">slovakshy mok</span>
+        <p class="text-center bg-dark text-light p-2">icing elit. Ratione, eligendi repellendus facere assumenda architectora veli</p>
+      </div>
+    </div>
+    <div class="advance bg-dark mb-5 mt-5">
+      <div class="fof d-flex flex-wrap justify-content-around">
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-regular fa-star"></i>
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-solid fa-truck-fast"></i>
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-solid fa-arrow-up-from-bracket"></i>
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-brands fa-stack-overflow"></i>
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-regular fa-eye-slash"></i>
+        <i class=" col-sm-6 col-md-4 col-lg-2 mt-5 mb5 text-white pb-5 fa-2x text-white-50 fa-solid fa-gears"></i>
+      </div>
+    </div>
+    <div class="start d-flex mt-5 justify-content-center align-items-center flex-wrap p-4">
+      <h2 class="col-12 text-center ">Start Your Project Now</h2>
+      <p class="col-12 text-center text-black-50">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+      <button type="button" class="btn btn-danger mt-5 text-uppercase fs-5 fw-bold text-warning col-3 ">start proj now</button>
+    </div>
+    <div class="blog mt-5 d-flex flex-wrap">
+      <div class="hederr text-center col-12">
+        <i class="fa-brands fa-docker fa-5x mb-3 text-success"></i>
+        <h2 class="mb-3 ">this is some of our works </h2>
+        <p class="text-black-50 border-bottom col-3 m-auto">new news about us </p>
+      </div>
+      <div class="some-blog mt-5 d-flex flex-wrap">
+        <div class="col-sm-12 col-lg-4 ps-3 pe-3  border-bottom border-end d-flex flex-wrap justify-content-center">
+          <div class="for-img">
+            <img src="/imags/Screenshot_3.png" class="img-fluid mb-3" alt="">
+          </div>
+          <span class="text-black-50 col-12 text-center">oct 27 2000</span>
+          <h4>its some blog for goolge</h4>
+        </div>
+        <div class="col-sm-12 col-lg-4 ps-3 pe-3  border-bottom border-end d-flex flex-wrap justify-content-center">
+          <div class="for-img">
+            <img src="/imags/Screenshot_8.png" class="img-fluid mb-3" alt="">
+          </div>
+          <span class="text-black-50 col-12 text-center">oct 27 2000</span>
+          <h4>its some blog for goolge</h4>
+        </div>
+        <div class="col-sm-12 col-lg-4 ps-3 pe-3  border-bottom border-end d-flex flex-wrap justify-content-center">
+          <div class="for-img">
+            <img src="/imags/Screenshot_3.png" class="img-fluid mb-3" alt="">
+          </div>
+          <span class="text-black-50  col-12 text-center">oct 27 2000</span>
+          <h4>its some blog for goolge</h4>
+        </div>
+      </div>
+      <button type="button" class="btn btn-danger mt-5 text-uppercase fs-5 fw-bold text-warning col-2 m-auto ">try now</button>
+    </div>
+    <div class="yelloSide mt-5 d-flex ps-3 pe-2 col-12 align-items-center">
+      <h2 class="col-3">Subscribe to our Newsletter:</h2>
+      <input class="col-5 border-0 border-bottom rounded ps-2 text-white" type="text" name="#" id="" placeholder="enter your address">
+      <button type="button" class="col-1 btn btn-warning text-uppercase  fw-bold  col-2 m-auto   ">sub scrube</button>
+    </div>
+    <div class="last d-flex flex-wrap ps-4 text-black-50 fw-bold pt-5 pb-5">
+      <div class="onee col-lg-4 col-md-6 col-sm-10">
+        <i class="fa-solid fa-plate-wheat fs-1 mb-2"></i>
+        <p class="">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+        <p>created by <span class="text-info">khaled-nazer</span></p>
+        <p>@ 2024- <span class="text-warning">boodstrab</span></p>
+      </div>
+      <div class="toow col-lg-2 col-md-6 col-sm-10">
+        <ul class="">links
+          <li>Home</li>
+          <li>Our Services</li>
+          <li>Portfolio</li>
+          <li>Testimonials</li>
+          <li>Support</li>
+          <li>Terms and Condition</li>
+        </ul>
+      </div>
+      <div class="tress col-lg-2 col-md-6 col-sm-10">
+        <ul>about us 
+          <li>Sign In</li>
+          <li>Register</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="foor col-lg-2 col-md-6 col-sm-10">
+        <h2>contact us </h2>
+        <p>Get in touch with us via mail phone.We are waiting for your call or message</p>
+        <button type="button" class="btn btn-danger mt-2 text-uppercase fs-5 fw-bold text-warning col-12 mb-3  ">try now</button>
+        <div class="log d-flex col-12 justify-content-around">
+          <i class="col-3 fw-bold text-dark fs-4 fa-brands fa-facebook-f"></i>
+          <i class="col-3 fw-bold text-dark fs-4 fa-brands fa-facebook-messenger"></i>
+          <i class="col-3 fw-bold text-dark fs-4 fa-brands fa-whatsapp"></i>
+          <i class="col-3 fw-bold text-dark fs-4 fa-solid fa-hand-holding-droplet"></i>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main-java.js"></script>
+    <script src="/javaa/bootstrap.bundle.min.js"></script>
+    <script src="/javaa/all.min.js"></script>
+</body>
+</html>
