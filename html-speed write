@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="css-index.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <div class="ofs">
+        <span class="tostart">chose you levle </span>
+        <span class="one" data-tt="3">hard</span>
+        <span class="tow" data-tt="5">normal</span>
+        <span class="three" data-tt="6">easy</span>
+    </div>
+<div class="game">
+    <div class="gamename">speed writen game</div>
+    <div class="ifo">cuurent word 
+        <span class="level"></span> 
+        <span class="scc"></span>
+    </div>
+    <button class="start">start game </button><span class="phsoud"></span>
+    <input type="text" name="game" id="inpot">
+    <div class="showword"><span class="word"></span></div>
+    <div class="iformation">
+        <div class="time"><span class="see"></span> sce to left</div>
+        <div class="scor">score <span class="scoo"></span> from <span class="from"></span></div>
+    </div>
+    <div class="bugg"></div>
+</div>
+    <script type="module" src="/main-java.js"></script>
+</body>
+</html>
+
+
