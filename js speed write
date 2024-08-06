@@ -1,0 +1,85 @@
+let wordsArray = [
+    "JavaScript", "array", "elements", "data", "structure", 
+    "access", "manipulate", "store", "index", "method", 
+    "push", "pop", "shift", "unshift", "map", 
+    "filter", "reduce", "loop", "iterate", "modify", 
+    "sort", "length", "splice", "slice", "join"
+];
+let cuurword = 0
+let phs =document.querySelector(".phsoud")
+let main = document.querySelector(".game")
+let bug = document.querySelector(".bugg")
+let levl = document.querySelector(".level")
+let sc = document.querySelector(".scc")
+let start = document.querySelector(".start")
+let inpo = document.getElementById("inpot")
+let word = document.querySelector(".word")
+let ss  = document.querySelector(".see")
+let scor  = document.querySelector(".scoo")
+scor.innerHTML = 0
+let sss = 0
+let from  = document.querySelector(".from")
+let lee = document.querySelectorAll(".ofs :not(:first-child) ")
+lee.forEach((lle)=>lle.addEventListener("click", function(){
+    lle.parentElement.style.display = "none"
+    lle.classList.add("act")
+}))
+sc.innerHTML =`scond left 0`
+from.innerHTML = wordsArray.length
+start.onclick = function(){
+    start.style.display = "none"
+    let ac = document.querySelector(".act")
+    let scond = ac.getAttribute("data-tt")
+    inpo.focus()
+    addword()
+    if (cuurword < wordsArray.length){
+        let tii = setInterval(cont , 1000 )
+        function cont(){
+            scond--
+            sc.innerHTML =`scond left ${scond}`
+            if (scond === 0){
+                inp()
+                start.click()
+                clearInterval(tii)
+                inpo.value = ""
+            }
+        }  
+    }
+} 
+function addword(){
+    word.innerHTML = wordsArray[cuurword]
+    cuurword++
+    levl.innerHTML = cuurword
+    if (cuurword === wordsArray.length){
+        start.disabled = true
+        main.style.opacity = ".5"
+        inpo.disabled = true
+        bug.style.display = "block"
+        window.localStorage.setItem(`${new Date}` , `${sss}`)
+        if (sss === wordsArray.length){
+            bug.innerHTML = `exllent you can recive your gift any time `
+        }else if (sss > wordsArray.length / 2){
+            bug.innerHTML = `good you do will`
+        }else if (sss < wordsArray.length /2){
+            bug.innerHTML = `you failed go to hell`
+        }
+    }
+}
+function inp(){
+    if (inpo.value.toUpperCase() === word.innerHTML.toUpperCase()){
+        sss++
+        scor.innerHTML = sss
+    }
+}
+phs.onclick = function(){
+    setTimeout(() => {
+        start.click()
+    }, 2000);
+    phs.style.display = "none"
+    bug.style.display = "block"
+    bug.innerHTML = `ready`
+    setTimeout(() => {
+        bug.style.display = "none"
+        bug.innerHTML = ""
+    }, 2000);
+}
