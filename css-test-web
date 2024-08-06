@@ -1,0 +1,194 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+    --mys :orange ;
+    --main : aquamarine ;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 5000px;
+    margin: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+.bg-light-my{
+    background-color: aquamarine;
+}
+.nav-item a:hover{
+    background-color: green;
+    border-radius: 7px;
+    color: white !important;
+}
+.collapse{
+    justify-content: space-around;
+}
+.ms-2{
+    border-left: solid white 2px;
+}
+.fa-magnifying-glass{
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin: 4px;
+}
+.topi{
+    height:calc(100vh - 80px);
+}
+.offer{
+    height: auto;
+}
+.number{
+    width: 100px;
+    height: 380px;
+    position: absolute;
+    background-color: #faebd700;
+    opacity: .1;
+    bottom: -86%;
+}
+.ii{
+    position: relative;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.only{
+    width: 63%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    border-radius: 6px;
+}
+h2{
+    color: var(--mys) !important;
+}
+
+@media (min-width: 300px) {
+    .one , .tow , .thre{
+        margin-top: 220px ;
+    }
+}
+@media (min-width: 576px) {
+    .one , .tow , .thre{
+        margin-top: 230px !important;
+        margin-bottom: 0 !important;
+    }
+}
+.one , .tow , .thre{
+    height: auto !important;
+}
+@media (min-width: 1000px) {
+    .one , .tow , .thre{
+        margin-top: 200px !important;
+        margin-bottom: 0 !important;
+    }
+}
+.workss{
+    height: auto;
+}
+.chose-one{
+    width: 70%;    
+}
+.chose-one li{
+    list-style: none;
+    height: 34px;
+    /* width: 208px; */
+    cursor: pointer;
+}
+.chose-one .act{
+    background-color: var(--red-color) !important;
+}
+.chose-one li:not(.act):hover{
+    background-color: var(--yellow-color) !important; 
+}
+.photo img{
+    width: 260px;
+    outline: 20px white solid;
+}
+.boxx::before{
+    content: attr(data-co);
+    position: absolute;
+    width: 0;
+    height: calc(100% - 8px);
+    overflow: hidden;
+    background-color: aquamarine;
+    opacity: .5;
+    left: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    align-content: center;
+    text-align: center;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxx:hover::before{
+    width: 100%;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+}
+.stuf{
+    margin-top: 15px;
+    height: auto;
+    width: 100%;
+}
+.img{
+    /* width: 100%; */
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+@media(min-width : 1000px){
+    .hedmumber{
+        padding-left: 200px;
+        padding-right: 200px;
+        
+    }
+}
+.start{
+    background-color: var(--main) ;
+}
+@media(min-width: 400px){
+    .yelloSide > * {
+        font-size: 13px !important;
+    }
+}
+@media(min-width: 650px){
+    .yelloSide > * {
+        font-size: 20px !important;
+    }
+}
+.yelloSide button{
+    background-color: var(--main);
+    color: var(--yellow-color);
+}
+.yelloSide{
+    background-color: var(--yellow-color);
+    height: 150px;
+}
+.yelloSide h2{
+    color: var(--dark-color) !important;
+    /* line-height: 20px; */
+}
+.yelloSide input{
+    background-color: var(--yellow-color);
+}
+.yelloSide input:focus{
+    outline: none;
+}
+.last{
+    background-color: var(--main);
+}
